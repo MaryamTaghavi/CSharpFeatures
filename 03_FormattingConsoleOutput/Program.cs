@@ -16,3 +16,6 @@ Console.WriteLine("f3 format: {0:f3}" , 99999) ;
 // N or n : used for basic numerical formatting(with commas).
 // n format: 99,999.00
 Console.WriteLine("n format: {0:n}" , 99999) ;
+
+// Change the format of number
+string userMessage = String.Format("{0:n}" , 10000) ;
