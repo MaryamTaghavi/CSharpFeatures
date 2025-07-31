@@ -8,3 +8,7 @@ Console.WriteLine("c format: {0:c}" , 99999) ;
 // D or d : used to format decimal numbers. This flag may also specify minimum number of digits used to pad the value.
 // d9 format: 000099999
 Console.WriteLine("d9 format: {0:d9}" , 99999) ;
+
+// F or f : used for fixed-point formatting. This flag may also specify the minimum number of digits used to pad the value.
+// f3 format: 000099999
+Console.WriteLine("f3 format: {0:f3}" , 99999.000) ;
