@@ -10,5 +10,9 @@ Console.WriteLine("c format: {0:c}" , 99999) ;
 Console.WriteLine("d9 format: {0:d9}" , 99999) ;
 
 // F or f : used for fixed-point formatting. This flag may also specify the minimum number of digits used to pad the value.
-// f3 format: 000099999
-Console.WriteLine("f3 format: {0:f3}" , 99999.000) ;
+// f3 format: 99999.000
+Console.WriteLine("f3 format: {0:f3}" , 99999) ;
+
+// N or n : used for basic numerical formatting(with commas).
+// n format: 99,999.00
+Console.WriteLine("n format: {0:n}" , 99999) ;
