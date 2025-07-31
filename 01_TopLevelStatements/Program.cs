@@ -1,3 +1,5 @@
+// In C# 9 and later (with .Net 5+)
+
 class Program
 {
   static void Main(string[] args)
