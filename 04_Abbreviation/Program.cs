@@ -15,3 +15,5 @@
 // CTS => Common Type System (S توی دات‌نت مشخص می‌کنه که چه نوع داده‌هایی (data types) توی همه زبان‌های دات‌نت مثل C#, VB.NET, F# و ... وجود دارن و چطوری با هم سازگارن.)
 
 // SDK => Software Development Kit (ابزارهای توسعه نرم افزار)
+
+// API => Application Programming Interface
