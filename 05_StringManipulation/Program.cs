@@ -11,6 +11,7 @@ Contains() ;
 Equals() ;
 
 //This static method formats a string using other primitives (numerical data, other strings).
+//This method works with objects (reference type), so if you pass a valueType into, value types are boxed.
 Format() ;
 
 string name = "Parsa";
