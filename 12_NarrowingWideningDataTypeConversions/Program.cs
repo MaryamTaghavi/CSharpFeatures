@@ -12,3 +12,10 @@ short a = (short) b ;
 
 short a = 2 ;
 int b = a ;
+
+
+// Implicity local variables with var keyword
+var i = 0;
+
+// Explicity local variables
+int i = 0 ;
