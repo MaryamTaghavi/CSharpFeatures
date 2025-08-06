@@ -19,3 +19,5 @@
 // API => Application Programming Interface
 
 // GUIDs => Global Unique Identifiers (شناسه guid)
+
+// IIS => Internet Information Service
