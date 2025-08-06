@@ -24,4 +24,6 @@
 
 // CLR => Common Language Runtime (هسته‌ی اصلی اجرای برنامه‌های دات‌نت است. وقتی کدی با زبان‌هایی مثل C# یا VB.NET می‌نویسی، اون کد ابتدا به IL (Intermediate Language) کامپایل می‌شه، و سپس CLR در زمان اجرا (Runtime) این IL رو تبدیل به کد ماشین (native code) می‌کنه و اجراش می‌کنه.
 
+// SRP => Single Responsibility Principle
+
 
