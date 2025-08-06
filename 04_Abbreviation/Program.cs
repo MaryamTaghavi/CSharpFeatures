@@ -26,4 +26,7 @@
 
 // SRP => Single Responsibility Principle
 
+// DI => Dependency Injection
+
+// IoC => Inversion of Control
 
