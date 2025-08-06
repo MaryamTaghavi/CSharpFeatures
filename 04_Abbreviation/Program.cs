@@ -17,3 +17,5 @@
 // SDK => Software Development Kit (ابزارهای توسعه نرم افزار)
 
 // API => Application Programming Interface
+
+// GUIDs => Global Unique Identifiers (شناسه guid)
