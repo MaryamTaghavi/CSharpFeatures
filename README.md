@@ -19,7 +19,8 @@
 - LINQ و Lambda Expressions  
 - Async/Await و برنامه‌نویسی غیرهمزمان  
 - Pattern Matching  
-- Records و Immutable Types  
+- Records و Immutable Types
+- ...
 
 ---
 
