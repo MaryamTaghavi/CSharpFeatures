@@ -6,3 +6,6 @@ foreach ( var itm in gothicBands[0..2])
 }
 
 Console.WriteLine("\n");
+
+var band = gothicBands.ElementAt(^2);
+Console.WriteLine(band);
