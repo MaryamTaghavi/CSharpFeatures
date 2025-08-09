@@ -7,13 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Arrays", "01_Arrays\01_A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_RectangularArray", "02_RectangularArray\02_RectangularArray.csproj", "{8F5564B1-8F2C-4CED-B7B9-B0CD2EEEB715}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_JaggedArray", "03_JaggedArrays\03_JaggedArray.csproj", "{DE132257-B78D-41F0-92C1-F76B5706356E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_JaggedArray", "03_JaggedArrays\03_JaggedArray.csproj", "{DE132257-B78D-41F0-92C1-F76B5706356E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Indices", "04_Indices\04_Indices.csproj", "{8CCB2942-9A3A-4149-A769-140E38BFAB6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Indices", "04_Indices\04_Indices.csproj", "{8CCB2942-9A3A-4149-A769-140E38BFAB6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_RangeOperator", "05_RangeOperator\05_RangeOperator.csproj", "{EE0AC33B-C4AF-4737-ACD1-F23C741F9931}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_RangeOperator", "05_RangeOperator\05_RangeOperator.csproj", "{EE0AC33B-C4AF-4737-ACD1-F23C741F9931}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Expression-Bodied Members", "06_Expression-Bodied Members\06_Expression-Bodied Members.csproj", "{56403123-8B2B-4D2C-B760-7F3F0172C706}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Expression-Bodied Members", "06_Expression-Bodied Members\06_Expression-Bodied Members.csproj", "{56403123-8B2B-4D2C-B760-7F3F0172C706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_LocalFunctions", "07_LocalFunctions\07_LocalFunctions.csproj", "{A6EE5696-3183-46C3-9540-BD116819BE39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{56403123-8B2B-4D2C-B760-7F3F0172C706}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56403123-8B2B-4D2C-B760-7F3F0172C706}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56403123-8B2B-4D2C-B760-7F3F0172C706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6EE5696-3183-46C3-9540-BD116819BE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6EE5696-3183-46C3-9540-BD116819BE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6EE5696-3183-46C3-9540-BD116819BE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6EE5696-3183-46C3-9540-BD116819BE39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
