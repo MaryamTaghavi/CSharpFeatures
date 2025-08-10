@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_RangeOperator", "05_Rang
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Expression-Bodied Members", "06_Expression-Bodied Members\06_Expression-Bodied Members.csproj", "{56403123-8B2B-4D2C-B760-7F3F0172C706}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_LocalFunctions", "07_LocalFunctions\07_LocalFunctions.csproj", "{A6EE5696-3183-46C3-9540-BD116819BE39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_LocalFunctions", "07_LocalFunctions\07_LocalFunctions.csproj", "{A6EE5696-3183-46C3-9540-BD116819BE39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_ParameterModifier", "08_ParameterModifier\08_ParameterModifier.csproj", "{8772F885-443C-442B-9561-956CE18E6E74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{A6EE5696-3183-46C3-9540-BD116819BE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6EE5696-3183-46C3-9540-BD116819BE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6EE5696-3183-46C3-9540-BD116819BE39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8772F885-443C-442B-9561-956CE18E6E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8772F885-443C-442B-9561-956CE18E6E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8772F885-443C-442B-9561-956CE18E6E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8772F885-443C-442B-9561-956CE18E6E74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
