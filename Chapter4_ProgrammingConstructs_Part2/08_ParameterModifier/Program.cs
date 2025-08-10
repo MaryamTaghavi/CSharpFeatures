@@ -47,3 +47,14 @@ Console.WriteLine("Before call: {0}, {1}", str1,str2);
 SwapStrings(ref str1, ref str2);
 Console.WriteLine("After call: {0}, {1}", str1, str2);
 Console.ReadLine();
+
+// Using the in modifier
+// In is readonly
+static int AddReadOnly(in int x, in int y)
+{
+    //Error cannot assign because x , y are readonly and we cann't change the value of them.
+    //x = 10000;
+    //y = 8888;
+    int ans = x + y;
+    return ans;
+}
