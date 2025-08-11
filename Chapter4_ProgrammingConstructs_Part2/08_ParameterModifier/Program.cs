@@ -79,7 +79,8 @@ Console.WriteLine("result: {0}", result);
 
 
 // Using optional parametes
-static void EnterLogData(string message , string owner = "Programmer" , DateTime timestamp = DateTime.Now)
+// DateTime timestamp = DateTime.Now => compile error because DateTime.Now specified runtime 
+static void EnterLogData(string message , string owner = "Programmer") //, DateTime timestamp = DateTime.Now)
 {
     Console.WriteLine("Error: {0}", message);
     Console.WriteLine("Owner of error: {0}", owner);
