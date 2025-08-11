@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_CheckingNullParameter", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_EnumValue", "11_EnumValue\11_EnumValue.csproj", "{55128F83-2A7F-4788-B683-8A07BD18F786}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_FlagsOperation", "12_FlagOperation\12_FlagsOperation.csproj", "{75A31435-EB4D-4FAF-AB05-212F983AE6BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{55128F83-2A7F-4788-B683-8A07BD18F786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55128F83-2A7F-4788-B683-8A07BD18F786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55128F83-2A7F-4788-B683-8A07BD18F786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A31435-EB4D-4FAF-AB05-212F983AE6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A31435-EB4D-4FAF-AB05-212F983AE6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A31435-EB4D-4FAF-AB05-212F983AE6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A31435-EB4D-4FAF-AB05-212F983AE6BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
