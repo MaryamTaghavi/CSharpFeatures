@@ -46,7 +46,6 @@ string str2 = "Flop";
 Console.WriteLine("Before call: {0}, {1}", str1,str2);
 SwapStrings(ref str1, ref str2);
 Console.WriteLine("After call: {0}, {1}", str1, str2);
-Console.ReadLine();
 
 // Using the in modifier
 // In is readonly
@@ -58,3 +57,24 @@ static int AddReadOnly(in int x, in int y)
     int ans = x + y;
     return ans;
 }
+
+// Using the params Modifier
+// A single params argument
+static double CalculateAverage(params double[] values)
+{
+    double sum = 0;
+    if (values.Length == 0)
+    {
+        return sum;
+    }
+    for (int i = 0; i < values.Length; i++)
+    {
+        sum += values[i];
+    }
+    return sum / values.Length;
+}
+
+var result = CalculateAverage(2.6, 8.9, 2.8, 9.7);
+Console.WriteLine("result: {0}", result);
+Console.ReadLine();
+
