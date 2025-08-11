@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_ParameterModifier", "08_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_MethodOverloading", "09_MethodOverloading\09_MethodOverloading.csproj", "{692BCB8B-2B45-4A60-9917-0A047BC907EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_CheckingNullParameter", "10_CheckingNullParameter\10_CheckingNullParameter.csproj", "{BABA5634-835A-4F01-BA1B-D24AE5E9B977}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{692BCB8B-2B45-4A60-9917-0A047BC907EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{692BCB8B-2B45-4A60-9917-0A047BC907EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{692BCB8B-2B45-4A60-9917-0A047BC907EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BABA5634-835A-4F01-BA1B-D24AE5E9B977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABA5634-835A-4F01-BA1B-D24AE5E9B977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABA5634-835A-4F01-BA1B-D24AE5E9B977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABA5634-835A-4F01-BA1B-D24AE5E9B977}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
