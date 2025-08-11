@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Expression-Bodied Member
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_LocalFunctions", "07_LocalFunctions\07_LocalFunctions.csproj", "{A6EE5696-3183-46C3-9540-BD116819BE39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_ParameterModifier", "08_ParameterModifier\08_ParameterModifier.csproj", "{8772F885-443C-442B-9561-956CE18E6E74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_ParameterModifier", "08_ParameterModifier\08_ParameterModifier.csproj", "{8772F885-443C-442B-9561-956CE18E6E74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_MethodOverloading", "09_MethodOverloading\09_MethodOverloading.csproj", "{692BCB8B-2B45-4A60-9917-0A047BC907EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{8772F885-443C-442B-9561-956CE18E6E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8772F885-443C-442B-9561-956CE18E6E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8772F885-443C-442B-9561-956CE18E6E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692BCB8B-2B45-4A60-9917-0A047BC907EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692BCB8B-2B45-4A60-9917-0A047BC907EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692BCB8B-2B45-4A60-9917-0A047BC907EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692BCB8B-2B45-4A60-9917-0A047BC907EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
