@@ -19,15 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_LocalFunctions", "07_Loc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_ParameterModifier", "08_ParameterModifier\08_ParameterModifier.csproj", "{8772F885-443C-442B-9561-956CE18E6E74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_MethodOverloading", "09_MethodOverloading\09_MethodOverloading.csproj", "{692BCB8B-2B45-4A60-9917-0A047BC907EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_MethodOverloading", "09_MethodOverloading\09_MethodOverloading.csproj", "{692BCB8B-2B45-4A60-9917-0A047BC907EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_CheckingNullParameter", "10_CheckingNullParameter\10_CheckingNullParameter.csproj", "{BABA5634-835A-4F01-BA1B-D24AE5E9B977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_CheckingNullParameter", "10_CheckingNullParameter\10_CheckingNullParameter.csproj", "{BABA5634-835A-4F01-BA1B-D24AE5E9B977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_EnumValue", "11_EnumValue\11_EnumValue.csproj", "{55128F83-2A7F-4788-B683-8A07BD18F786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_EnumValue", "11_EnumValue\11_EnumValue.csproj", "{55128F83-2A7F-4788-B683-8A07BD18F786}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_FlagsOperation", "12_FlagOperation\12_FlagsOperation.csproj", "{75A31435-EB4D-4FAF-AB05-212F983AE6BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_FlagsOperation", "12_FlagOperation\12_FlagsOperation.csproj", "{75A31435-EB4D-4FAF-AB05-212F983AE6BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_StructType", "13_StructType\13_StructType.csproj", "{CC00FF81-6CD4-42D3-8A1E-C8EC675013A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_StructType", "13_StructType\13_StructType.csproj", "{CC00FF81-6CD4-42D3-8A1E-C8EC675013A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_ReferenceType&ValueType", "14_ReferenceType&ValueType\14_ReferenceType&ValueType.csproj", "{2ECBC1D3-FDB4-43D1-B2EF-EB5E4B2539CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{CC00FF81-6CD4-42D3-8A1E-C8EC675013A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC00FF81-6CD4-42D3-8A1E-C8EC675013A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC00FF81-6CD4-42D3-8A1E-C8EC675013A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ECBC1D3-FDB4-43D1-B2EF-EB5E4B2539CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECBC1D3-FDB4-43D1-B2EF-EB5E4B2539CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECBC1D3-FDB4-43D1-B2EF-EB5E4B2539CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECBC1D3-FDB4-43D1-B2EF-EB5E4B2539CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
