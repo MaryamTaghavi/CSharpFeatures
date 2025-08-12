@@ -1,4 +1,7 @@
 ﻿// Struct is valueType but class is referenceType
+// Struct cann't inherit from other class or struct
+// Struct can't be the base of a class
+// Struct can implement interfaces
 
 using System.Drawing;
 
