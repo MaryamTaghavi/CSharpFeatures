@@ -3,7 +3,9 @@
 // Struct can't be the base of a class
 // Struct can implement interfaces
 
-using System.Drawing;
+
+Array[] p = new Array[2];
+string h = "";
 
 Point1 myPoint;
 myPoint.X = 349;
@@ -28,6 +30,10 @@ Point3 p4 = p3;
 p4.X = 99;
 
 Console.WriteLine(p3.X);
+
+Point4 p5 = new Point4();
+Console.WriteLine(p5.X);
+Console.WriteLine(p5.Y);
 
 Console.ReadLine();
 
@@ -84,4 +90,13 @@ public class Point3
     {
         Console.WriteLine($"Point3: ({X}, {Y})");
     }
+}
+
+struct Point4
+{
+    public int X;
+    public int Y;
+    //public Point4()
+    //{
+    //}
 }
