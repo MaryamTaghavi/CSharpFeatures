@@ -8,7 +8,8 @@
 
 // LINQ => Language Integrated Query (کوئری نویسی یکپارچه با زبان برنامه نویسی)
 
-// CIL => Common Intermediate Language (زبانی که کدهای .net و ... بعد از کامپایل شدن و قبل از اجرا به آن تبدیل میشوند.)
+// CIL => Common Intermediate Language (زبانی که کدهای .net و ... بعد از کامپایل شدن و قبل از اجرا به آن تبدیل میشوند.) 
+// گه گاه به آن MSIL (Microsoft Intermediate Language) گفته میشود.
 
 // IDE => Integrated Development Environments ( محیط توسعه نرم افزار مثل visual stadio)
 
