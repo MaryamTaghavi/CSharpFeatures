@@ -1,5 +1,37 @@
 ﻿
+using System;
+
 ValueTypeContainingRefType();
+
+Console.WriteLine("**** Passing Person object by value ****");
+Person fred = new Person("Fred" , 12);
+Console.WriteLine("Before by value call, Person is : ");
+fred.Display();
+SendAPersonByValue(fred);
+Console.WriteLine("After by value call, Person is : ");
+fred.Display();
+
+Console.WriteLine("**** Passing Person object by reference ****");
+Person mel = new Person("Mel", 23);
+Console.WriteLine("Before by ref call, Person is : ");
+mel.Display();
+SendAPersonByReference(ref mel);
+Console.WriteLine("After by ref call, Person is : ");
+mel.Display();
+Console.ReadLine();
+
+// Passing Reference Types by Reference
+static void SendAPersonByReference(ref Person p)
+{
+    p.personAge = 555;
+    p = new Person("Nikki", 999);
+}
+
+static void SendAPersonByValue(Person p)
+{
+    p.personAge = 99;
+    p = new Person("Nikki", 99);
+}
 
 static void ValueTypeContainingRefType()
 {
@@ -43,5 +75,29 @@ struct Rectangle
         Console.WriteLine("String = {0}, Top = {1}, Bottom = {2}, " +
         "Left = {3}, Right = {4}",
         RectInfo.InfoString, RectTop, RectBottom, RectLeft, RectRight);
+    }
+}
+
+
+// Passing Reference Types by Value
+class Person
+{
+    public string personName;
+    public int personAge;
+
+    #region Constructors
+    public Person(string name , int age)
+    {
+        personName = name;
+        personAge = age;
+    }
+
+    public Person() { }
+
+    #endregion
+
+    public void Display()
+    {
+        Console.WriteLine("Name: {0}, Age: {1}" , personName , personAge);
     }
 }
