@@ -18,6 +18,10 @@ mel.Display();
 SendAPersonByReference(ref mel);
 Console.WriteLine("After by ref call, Person is : ");
 mel.Display();
+
+string i = "" ;
+CheckType(i);
+
 Console.ReadLine();
 
 // Passing Reference Types by Reference
@@ -31,6 +35,19 @@ static void SendAPersonByValue(Person p)
 {
     p.personAge = 99;
     p = new Person("Nikki", 99);
+}
+
+// یک متد generic بنویس که تشخیص بده ورودی یک value type است یا reference type
+static void CheckType<T>(T input)
+{
+    if(input.GetType().IsValueType)
+    {
+        Console.WriteLine("Input is valueType");
+    }
+    else
+    {
+        Console.WriteLine("Input is referenceType");
+    }
 }
 
 static void ValueTypeContainingRefType()
