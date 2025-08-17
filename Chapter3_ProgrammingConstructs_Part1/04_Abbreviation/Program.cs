@@ -29,6 +29,8 @@
 
 // DI => Dependency Injection
 
+// NRTs => nullable reference types
+
 // IoC => Inversion of Control
 
 // ADTs => Abstract Data Types
