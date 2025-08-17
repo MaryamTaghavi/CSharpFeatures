@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_OrderList", "15_OrderLis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_Null-CoalescingOperator", "16_Null-CoalescingOperator\16_Null-CoalescingOperator.csproj", "{7880A92A-F4B7-444B-A829-E2A4541C1147}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_Tuples", "17_Tuples\17_Tuples.csproj", "{EC92E7D9-0684-4B34-89D0-7178C84C3F7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{7880A92A-F4B7-444B-A829-E2A4541C1147}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7880A92A-F4B7-444B-A829-E2A4541C1147}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7880A92A-F4B7-444B-A829-E2A4541C1147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC92E7D9-0684-4B34-89D0-7178C84C3F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC92E7D9-0684-4B34-89D0-7178C84C3F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC92E7D9-0684-4B34-89D0-7178C84C3F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC92E7D9-0684-4B34-89D0-7178C84C3F7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
