@@ -26,3 +26,37 @@ Console.WriteLine(left == longTuple); // Also true
 (long a, int b) longFirst = (5, 10);
 (int a, long b) longSecond = (5, 10);
 Console.WriteLine(longFirst == longSecond); // Also true
+
+
+//Switch expression with Tuples
+static string RockPaperScissors(string first, string second)
+{
+    return (first, second) switch
+    {
+        ("rock", "paper") => "Paper wins.",
+        ("rock", "scissors") => "Rock wins.",
+        ("paper", "rock") => "Paper wins.",
+        ("paper", "scissors") => "Scissors wins.",
+        ("scissors", "rock") => "Rock wins.",
+        ("scissors", "paper") => "Scissors wins.",
+        (_, _) => "Tie.",
+    };
+}
+
+//Deconstructing Tuples
+
+(int X, int Y) myTuple = (4, 5);
+int x = 0;
+int y = 0;
+(x, y) = myTuple;
+Console.WriteLine($"X is: {x}");
+Console.WriteLine($"Y is: {y}");
+
+(int x1, int y1) = myTuple;
+Console.WriteLine($"x1 is: {x}");
+Console.WriteLine($"y1 is: {y}");
+
+int x2 = 0;
+(x2, int y2) = myTuple;
+Console.WriteLine($"x2 is: {x}");
+Console.WriteLine($"y2 is: {y}");
