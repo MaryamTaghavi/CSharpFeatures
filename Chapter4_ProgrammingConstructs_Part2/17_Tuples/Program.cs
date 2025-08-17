@@ -44,11 +44,11 @@ static string RockPaperScissors(string first, string second)
 }
 
 //Deconstructing Tuples
+// یعنی تمامی متغیرهای Tuple از هم مجزا شوند.
 
 (int X, int Y) myTuple = (4, 5);
-int x = 0;
-int y = 0;
-(x, y) = myTuple;
+
+(int x, int y) = myTuple; // این خط داره همین کار رو میکنه عمل Deconstruct کردن
 Console.WriteLine($"X is: {x}");
 Console.WriteLine($"Y is: {y}");
 
