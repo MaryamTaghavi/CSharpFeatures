@@ -29,7 +29,7 @@
 
 // DI => Dependency Injection
 
-// NRTs => nullable reference types
+// NRTs => Nullable Reference Types
 
 // IoC => Inversion of Control
 
