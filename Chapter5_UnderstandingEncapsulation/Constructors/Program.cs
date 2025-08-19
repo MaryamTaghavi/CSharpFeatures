@@ -21,4 +21,12 @@ class Car
             inDanger = false;
         }
     }
+
+    // this keyword
+    public Car(string petName , int currSpeed)
+    {
+        this.petName = petName;
+        this.currSpeed = currSpeed;
+    }
+
 }
