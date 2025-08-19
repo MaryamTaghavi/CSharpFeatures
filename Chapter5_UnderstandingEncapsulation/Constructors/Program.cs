@@ -23,10 +23,14 @@ class Car
     }
 
     // this keyword
+    // master constructor => has the greatest number of arguments
     public Car(string petName , int currSpeed)
     {
         this.petName = petName;
         this.currSpeed = currSpeed;
     }
+
+    // chaining constructor
+    public Car(int sp) : this ("", sp) {}
 
 }
