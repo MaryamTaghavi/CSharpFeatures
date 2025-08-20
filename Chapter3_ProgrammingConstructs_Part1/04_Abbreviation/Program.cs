@@ -1,3 +1,5 @@
+// JIT Compiler => Just In Time ( کدهایی که IL تولید کرده را در زمان اجرا هر کدام که نیاز باشد به زبان ماشین تبدیل میکند)
+
 // CLS => Common Language Specification Compliant (سازگاری با قواعد حداقلی .Net)
 
 // CLI => Command Line Interface (رابط خط فرمان)
