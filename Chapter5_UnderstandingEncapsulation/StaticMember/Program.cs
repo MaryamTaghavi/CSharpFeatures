@@ -35,5 +35,27 @@ class SavingsAccount1
     //public static double GetInterestRate() => this.x;
 }
 
+// 3) static constructor
+// برای مواقعی که نیاز به محاسبه در لحظه runtime یا گرفتن دیتا از منابع بیرونی هستیم
+
+class Bank
+{
+    public static double InterestRate;
+
+    static Bank()
+    {
+        // مثلا مقدار رو از فایل config یا یک منبع بیرونی بخونیم
+        Console.WriteLine("Static constructor executed!");
+        InterestRate = DateTime.Now.Second % 2 == 0 ? 0.04 : 0.05;
+    }
+
+    public static void ShowRate()
+    {
+        Console.WriteLine("Interest Rate = " + InterestRate);
+    }
+}
+ 
+// نکته : اگر فیلد استاتیک را درون non-static constructor بگیریم با هر بار ایجاد شی این مقدار ریست شده و مقدار تکراری میگیرد
+
 
 
