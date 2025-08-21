@@ -1,10 +1,7 @@
-﻿
-using System;
-
-ValueTypeContainingRefType();
+﻿ValueTypeContainingRefType();
 
 Console.WriteLine("**** Passing Person object by value ****");
-Person fred = new Person("Fred" , 12);
+Person fred = new Person("Fred", 12);
 Console.WriteLine("Before by value call, Person is : ");
 fred.Display();
 SendAPersonByValue(fred);
@@ -19,10 +16,81 @@ SendAPersonByReference(ref mel);
 Console.WriteLine("After by ref call, Person is : ");
 mel.Display();
 
-string i = "" ;
+string i = "";
 CheckType(i);
 
+WriteChangeValue();
+WriteChangeValueRef();
+
+Exercise2();
+
 Console.ReadLine();
+
+#region Exercise 1
+static void ChangeValue(int number)
+{
+    number = 100; // only changes local copy
+}
+
+static void WriteChangeValue()
+{
+    int x = 5;
+    ChangeValue(x);
+    Console.WriteLine(x); // What will print?
+}
+
+static void ChangeValueRef(ref int number)
+{
+    number = 100; // only changes local copy
+}
+
+void WriteChangeValueRef()
+{
+    int y = 5;
+    ChangeValueRef(ref y);
+    Console.WriteLine(y); // What will print?
+}
+
+#endregion
+
+#region Exercise 2
+
+static void MoveShape(ref Shape s, in Point offset, out int newX)
+{
+    // تغییر مرجع shape
+    s = new Shape { Name = "Circle", Position = new Point { X = offset.X, Y = offset.Y } };
+
+    // تغییر property داخل object جدید
+    s.Position.X += 5;
+    s.Position.Y += 10;
+
+    // مقدار out
+    newX = s.Position.X;
+}
+
+static void ChangeArray(int[] arr)
+{
+    arr[0] = 99; // تغییر آرایه اصلی
+}
+
+static void Exercise2()
+{
+    var shape1 = new Shape { Name = "Square", Position = new Point { X = 0, Y = 0 } };
+    var offset = new Point { X = 2, Y = 3 };
+    int resultX;
+
+    int[] numbers = { 1, 2, 3 };
+    ChangeArray(numbers);
+
+    MoveShape(ref shape1, offset, out resultX);
+
+    Console.WriteLine($"Shape Name: {shape1.Name}");
+    Console.WriteLine($"Shape Position: {shape1.Position.X}, {shape1.Position.Y}");
+    Console.WriteLine($"Result X from out: {resultX}");
+    Console.WriteLine($"Array[0]: {numbers[0]}");
+}
+
+#endregion
 
 // Passing Reference Types by Reference
 static void SendAPersonByReference(ref Person p)
@@ -40,7 +108,7 @@ static void SendAPersonByValue(Person p)
 // یک متد generic بنویس که تشخیص بده ورودی یک value type است یا reference type
 static void CheckType<T>(T input)
 {
-    if(input.GetType().IsValueType)
+    if (input.GetType().IsValueType)
     {
         Console.WriteLine("Input is valueType");
     }
@@ -95,7 +163,6 @@ struct Rectangle
     }
 }
 
-
 // Passing Reference Types by Value
 class Person
 {
@@ -103,7 +170,7 @@ class Person
     public int personAge;
 
     #region Constructors
-    public Person(string name , int age)
+    public Person(string name, int age)
     {
         personName = name;
         personAge = age;
@@ -115,6 +182,19 @@ class Person
 
     public void Display()
     {
-        Console.WriteLine("Name: {0}, Age: {1}" , personName , personAge);
+        Console.WriteLine("Name: {0}, Age: {1}", personName, personAge);
     }
 }
+
+struct Point
+{
+    public int X;
+    public int Y;
+}
+
+class Shape
+{
+    public string Name;
+    public Point Position;
+}
+
