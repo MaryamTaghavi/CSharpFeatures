@@ -16,3 +16,17 @@
 
 
 // by default => class is internal and constructor is private
+
+
+// non-nested types can be public or internal
+
+// private class SportsCar => error
+//{
+
+//}
+
+public class SportsCar
+{
+    private int i = 0;
+
+}
