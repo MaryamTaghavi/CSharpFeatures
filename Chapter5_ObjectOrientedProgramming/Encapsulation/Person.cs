@@ -5,6 +5,8 @@
 // حالا یا به صئرت متد و یا property
 public class Person
 {
+    //EROOR!
+    //public string Family { set; }
     public int Id
     {
         get { return _empId; }
@@ -13,6 +15,8 @@ public class Person
      
     private string _name ;
     private int _empId;
+
+    private string Family { get; set; } // Auto-property
 
     public string GetName() => _name;
     public void SetName(string name)
