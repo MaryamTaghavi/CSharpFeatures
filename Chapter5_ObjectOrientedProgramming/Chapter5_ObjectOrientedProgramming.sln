@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticMember", "StaticMembe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{3CA9981A-48F0-415B-B24A-6E7408E12401}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{09C50F02-D066-40A4-9051-D597F2200CE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{09C50F02-D066-40A4-9051-D597F2200CE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "init-Only Setters", "init-Only Setters\init-Only Setters.csproj", "{31612A1D-92C6-4913-A59B-D439AB5A223D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{09C50F02-D066-40A4-9051-D597F2200CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09C50F02-D066-40A4-9051-D597F2200CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09C50F02-D066-40A4-9051-D597F2200CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31612A1D-92C6-4913-A59B-D439AB5A223D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31612A1D-92C6-4913-A59B-D439AB5A223D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31612A1D-92C6-4913-A59B-D439AB5A223D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31612A1D-92C6-4913-A59B-D439AB5A223D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
