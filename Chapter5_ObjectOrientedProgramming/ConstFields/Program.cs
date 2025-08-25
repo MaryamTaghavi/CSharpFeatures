@@ -1,5 +1,11 @@
 ﻿// Constant fields of a class are implicity static
 
+
+string foo = "Foo";
+string bar = "bar";
+string foobar = $"{foo}{bar}";
+Console.WriteLine(foobar);
+
 Console.WriteLine(MyMathClass.PI);
 class MyMathClass
 {
