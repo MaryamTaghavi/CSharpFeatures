@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "init-Only Setters", "init-O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstFields", "ConstFields\ConstFields.csproj", "{7A7AA0AF-153F-465A-A537-990F7E423243}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Immutable", "Immutable\Immutable.csproj", "{99323636-820E-44F1-925F-0431A90BE698}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{7A7AA0AF-153F-465A-A537-990F7E423243}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A7AA0AF-153F-465A-A537-990F7E423243}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A7AA0AF-153F-465A-A537-990F7E423243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99323636-820E-44F1-925F-0431A90BE698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99323636-820E-44F1-925F-0431A90BE698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99323636-820E-44F1-925F-0431A90BE698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99323636-820E-44F1-925F-0431A90BE698}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
