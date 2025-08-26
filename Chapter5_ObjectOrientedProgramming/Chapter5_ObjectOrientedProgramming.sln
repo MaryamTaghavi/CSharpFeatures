@@ -13,11 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiers", "AccessMo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{09C50F02-D066-40A4-9051-D597F2200CE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "init-Only Setters", "init-Only Setters\init-Only Setters.csproj", "{31612A1D-92C6-4913-A59B-D439AB5A223D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "init-Only Setters", "init-Only Setters\init-Only Setters.csproj", "{31612A1D-92C6-4913-A59B-D439AB5A223D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstFields", "ConstFields\ConstFields.csproj", "{7A7AA0AF-153F-465A-A537-990F7E423243}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstFields", "ConstFields\ConstFields.csproj", "{7A7AA0AF-153F-465A-A537-990F7E423243}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Immutable", "Immutable\Immutable.csproj", "{99323636-820E-44F1-925F-0431A90BE698}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Immutable", "Immutable\Immutable.csproj", "{99323636-820E-44F1-925F-0431A90BE698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferentModifier", "DifferentModifier\DifferentModifier.csproj", "{03A4EE1F-3DE7-4658-ABA0-E2BC46DD1FD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{99323636-820E-44F1-925F-0431A90BE698}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99323636-820E-44F1-925F-0431A90BE698}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99323636-820E-44F1-925F-0431A90BE698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A4EE1F-3DE7-4658-ABA0-E2BC46DD1FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A4EE1F-3DE7-4658-ABA0-E2BC46DD1FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A4EE1F-3DE7-4658-ABA0-E2BC46DD1FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A4EE1F-3DE7-4658-ABA0-E2BC46DD1FD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
