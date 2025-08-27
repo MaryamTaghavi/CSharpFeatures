@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstFields", "ConstFields\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Immutable", "Immutable\Immutable.csproj", "{99323636-820E-44F1-925F-0431A90BE698}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferentModifier", "DifferentModifier\DifferentModifier.csproj", "{03A4EE1F-3DE7-4658-ABA0-E2BC46DD1FD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DifferentModifier", "DifferentModifier\DifferentModifier.csproj", "{03A4EE1F-3DE7-4658-ABA0-E2BC46DD1FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClass", "PartialClass\PartialClass.csproj", "{1E2508E2-666E-4E92-8567-3744ED44CD82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{03A4EE1F-3DE7-4658-ABA0-E2BC46DD1FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03A4EE1F-3DE7-4658-ABA0-E2BC46DD1FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03A4EE1F-3DE7-4658-ABA0-E2BC46DD1FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E2508E2-666E-4E92-8567-3744ED44CD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2508E2-666E-4E92-8567-3744ED44CD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2508E2-666E-4E92-8567-3744ED44CD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2508E2-666E-4E92-8567-3744ED44CD82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
