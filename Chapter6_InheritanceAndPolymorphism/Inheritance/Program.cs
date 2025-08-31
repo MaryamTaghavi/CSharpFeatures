@@ -1,10 +1,20 @@
-﻿class BaseClass
+﻿public class BaseClass
 {
     protected int myValue = 123;
+
+    public BaseClass(int myValue = 0)
+    {
+        this.myValue = myValue;
+    }
 }
 
-class DerivedClass : BaseClass
+public class DerivedClass : BaseClass
 {
+    public DerivedClass(int value = 0) : base(value)
+    {
+
+    }
+
     static void Main()
     {
         var baseObject = new BaseClass();
@@ -16,7 +26,8 @@ class DerivedClass : BaseClass
         // به علت اینکه protected است مستقیم نمیتوان از کلاس پدر از آن استفاده کرد و باید
         // از کلاس فرزند از آن استفاده کرد.
         // OK, because this class derives from BaseClass.
-        derivedObject.myValue = 10;
+
+        //derivedObject.myValue = 10;
     }
 }
 
@@ -27,7 +38,7 @@ sealed class Example
 
 // خطا میدهد چون sealed هست و این یعنی
 // کسی نمیتواند از این کلاس ارث بری کند
-class Example1 : Example
-{
+//class Example1 : Example
+//{
 
-}
+//}
