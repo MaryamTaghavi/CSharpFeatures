@@ -7,9 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inheritance", "Inheritance"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{3BBF06D0-9859-48EA-A070-5BCA78004B38}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Polymorphis", "Polymorphis", "{69D435E0-C48B-4F05-A4D6-DE8D588739F1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstract", "Abstract", "{F31EC849-FCBB-412E-9857-9E8706A31236}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "New folder\Polymorphis\Polymorphism.csproj", "{800DB8AA-EA70-47F0-AF78-B029AEADB780}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract", "Abstract\Abstract\Abstract.csproj", "{42C31DE6-C874-4E46-8FA8-7B3E6D21241B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphysm", "Polymorphysm\Polymorphysm.csproj", "{EE6171B9-B3B7-4289-BFE2-3EE94543DA7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,17 +23,21 @@ Global
 		{3BBF06D0-9859-48EA-A070-5BCA78004B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BBF06D0-9859-48EA-A070-5BCA78004B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BBF06D0-9859-48EA-A070-5BCA78004B38}.Release|Any CPU.Build.0 = Release|Any CPU
-		{800DB8AA-EA70-47F0-AF78-B029AEADB780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{800DB8AA-EA70-47F0-AF78-B029AEADB780}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{800DB8AA-EA70-47F0-AF78-B029AEADB780}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{800DB8AA-EA70-47F0-AF78-B029AEADB780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42C31DE6-C874-4E46-8FA8-7B3E6D21241B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42C31DE6-C874-4E46-8FA8-7B3E6D21241B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42C31DE6-C874-4E46-8FA8-7B3E6D21241B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42C31DE6-C874-4E46-8FA8-7B3E6D21241B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE6171B9-B3B7-4289-BFE2-3EE94543DA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6171B9-B3B7-4289-BFE2-3EE94543DA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6171B9-B3B7-4289-BFE2-3EE94543DA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6171B9-B3B7-4289-BFE2-3EE94543DA7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3BBF06D0-9859-48EA-A070-5BCA78004B38} = {6B536162-0FD0-4D18-9D2E-8A152DBB198B}
-		{800DB8AA-EA70-47F0-AF78-B029AEADB780} = {69D435E0-C48B-4F05-A4D6-DE8D588739F1}
+		{42C31DE6-C874-4E46-8FA8-7B3E6D21241B} = {F31EC849-FCBB-412E-9857-9E8706A31236}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53B1EBF8-80F9-4A57-9ED4-99AF2E73FB47}
