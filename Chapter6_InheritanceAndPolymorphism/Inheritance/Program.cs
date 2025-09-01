@@ -1,4 +1,8 @@
-﻿public class BaseClass
+﻿MotorCycle mc3 = new MotorCycle("Harley", "Lowrider");
+MotorCycle scMotorCycle = new Scooter("Harley", "Lowrider");
+
+Console.WriteLine($"MotorCycle and Scooter Motorcycle are equal: {Equals(mc3, scMotorCycle)}");
+public class BaseClass
 {
     protected int myValue = 123;
 
@@ -42,3 +46,7 @@ sealed class Example
 //{
 
 //}
+
+public record MotorCycle(string Make , string Model);
+public record Scooter(string Make, string Model) : MotorCycle(Make , Model);
+
