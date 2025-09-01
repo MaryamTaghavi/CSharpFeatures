@@ -5,8 +5,8 @@ Animal1 animal1 = new Dog1();
 animal1.Speak(); // نتیجه: "Animal sound"
 
 /*
-وقتی override و virtual را نذاریم رفتار کلاس پدر نتیجه کار است
-اما وقتی میگذاریم رفتار کلاس فرزند نتیجه کار استو
+وقتی override و virtual را نداریم رفتار کلاس پدر نتیجه کار است
+اما وقتی میگذاریم رفتار کلاس فرزند نتیجه کار است
  */
 public class Animal
 {
