@@ -9,6 +9,7 @@ HashSet یا Dictionary بریزیم
 var p1 = new Person { Name = "Ali", Age = 30 };
 var p2 = new Person { Name = "Ali", Age = 30 };
 
+
 var set = new HashSet<Person>();
 set.Add(p1);
 
