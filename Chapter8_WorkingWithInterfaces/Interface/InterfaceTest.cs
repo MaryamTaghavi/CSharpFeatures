@@ -19,9 +19,9 @@ public interface InterfaceTest
         return "";
     }
 
-    static InterfaceTest() => Test2 = "";
+    static InterfaceTest() => Test2 = "test1";
 
     public void Test1();
 
-    static string Test2 ;
+    public static string Test2 ;
 }
