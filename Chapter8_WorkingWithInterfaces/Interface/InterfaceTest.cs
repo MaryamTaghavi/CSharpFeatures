@@ -1,6 +1,9 @@
 ﻿namespace Interface;
 
 // از سی شارپ 8 به بعد اینترفیس میتواند هر جور دیتایی از قبیل متد با پیاده سازی، استاتیک، بدون پیاده سازی و ... را داشته باشد.
+
+// static constructor فقط به عناصر static دسترسی دارد و باید بدون پارامتر باشد.
+
 public interface InterfaceTest
 {
     //Error!
@@ -15,6 +18,8 @@ public interface InterfaceTest
     {
         return "";
     }
+
+    static InterfaceTest() => Test2 = "";
 
     public void Test1();
 
