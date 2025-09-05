@@ -3,6 +3,14 @@
 // از سی شارپ 8 به بعد اینترفیس میتواند هر جور دیتایی از قبیل متد با پیاده سازی، استاتیک، بدون پیاده سازی و ... را داشته باشد.
 public interface InterfaceTest
 {
+    //Error!
+    //public int numOfPoints;
+
+    //Error!
+    //public InterfaceTest()
+    //{
+    //    numOfPoints = 0;
+    //}
     public string Test()
     {
         return "";

@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Interface;
+
+//Error
+//InterfaceTest interface1 = new InterfaceTest();
+
+InterfaceTest interface2 = new ClassTest();
