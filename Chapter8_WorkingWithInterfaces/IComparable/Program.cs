@@ -2,6 +2,8 @@
 The System.IComparable interface specifies a behavior that allows an object to be sorted based on some specified key.
  */
 
+using System.Collections;
+
 Console.WriteLine("***** Fun with Object Sorting *****\n");
 // Make an array of Car objects.
 Car[] myAutos = new Car[5];
@@ -19,12 +21,13 @@ foreach (var item in myAutos)
 }
 
 Array.Sort(myAutos);
+Array.Sort(myAutos, new PetNameComparer());
 
 Console.WriteLine("\nSorted List :");
 
 foreach (var item in myAutos)
 {
-    Console.WriteLine( "{0} {1}" , item.CarID , item.PetName);
+    Console.WriteLine("{0} {1}", item.CarID, item.PetName);
 }
 
 Console.ReadLine();
@@ -49,5 +52,22 @@ public class Car : IComparable
             return this.CarID.CompareTo(temp.CarID);
         }
         throw new ArgumentException("Parameter is not a Car!");
+    }
+}
+
+public class PetNameComparer : IComparer
+{
+    // Test the pet name of each object.
+    int IComparer.Compare(object o1, object o2)
+    {
+        if (o1 is Car t1 && o2 is Car t2)
+        {
+            return string.Compare(t1.PetName, t2.PetName,
+            StringComparison.OrdinalIgnoreCase);
+        }
+        else
+        {
+            throw new ArgumentException("Parameter is not a Car!");
+        }
     }
 }
