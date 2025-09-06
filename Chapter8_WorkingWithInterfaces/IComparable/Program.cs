@@ -21,7 +21,7 @@ foreach (var item in myAutos)
 }
 
 Array.Sort(myAutos);
-Array.Sort(myAutos, new PetNameComparer());
+Array.Sort(myAutos, Car.SortByPetName);
 
 Console.WriteLine("\nSorted List :");
 
@@ -38,6 +38,10 @@ public class Car : IComparable
     public int CurrentSpeed { get; set; }
     public string PetName { get; set; }
 
+    // Property to return the PetNameComparer.
+    public static IComparer SortByPetName
+        => (IComparer)new PetNameComparer();
+
     public Car(string name, int currSp, int id)
     {
         CurrentSpeed = currSp;
@@ -45,29 +49,20 @@ public class Car : IComparable
         CarID = id;
     }
     // IComparable implementation.
-    int IComparable.CompareTo(object obj)
+    public int CompareTo(object obj)
     {
-        if (obj is Car temp)
-        {
-            return this.CarID.CompareTo(temp.CarID);
-        }
-        throw new ArgumentException("Parameter is not a Car!");
+        Car temp = (Car)obj;
+        return this.PetName.CompareTo(temp.PetName);
     }
 }
 
 public class PetNameComparer : IComparer
 {
     // Test the pet name of each object.
-    int IComparer.Compare(object o1, object o2)
+    public int Compare(object x, object y)
     {
-        if (o1 is Car t1 && o2 is Car t2)
-        {
-            return string.Compare(t1.PetName, t2.PetName,
-            StringComparison.OrdinalIgnoreCase);
-        }
-        else
-        {
-            throw new ArgumentException("Parameter is not a Car!");
-        }
+        Car car1 = (Car)x;
+        Car car2 = (Car)y;
+        return string.Compare(car1.PetName, car2.PetName);
     }
 }
