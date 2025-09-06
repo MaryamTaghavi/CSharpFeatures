@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEnumrable", "IEnumrable\IE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldReturn", "YieldReturn\YieldReturn.csproj", "{B10E2E6E-3BFF-4654-9267-5C83F54B7C50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICloneable", "ICloneable\ICloneable.csproj", "{68A260B1-4105-42D8-825F-D38EBE048432}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B10E2E6E-3BFF-4654-9267-5C83F54B7C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B10E2E6E-3BFF-4654-9267-5C83F54B7C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B10E2E6E-3BFF-4654-9267-5C83F54B7C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A260B1-4105-42D8-825F-D38EBE048432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A260B1-4105-42D8-825F-D38EBE048432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A260B1-4105-42D8-825F-D38EBE048432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A260B1-4105-42D8-825F-D38EBE048432}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
