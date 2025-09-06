@@ -10,8 +10,23 @@ yield return به برنامه میگه:
 
  */
 
+/*
+
+فرض کن داری یک کتاب می‌خونی. Iterator مثل «نشانک کتاب» عمل می‌کنه → یادت می‌مونه صفحه چند بودی، و هر بار که بازش می‌کنی از همون‌جا ادامه میدی.
+yield return در این مثال یعنی: «این صفحه رو بهت می‌دم، نشانکم اینجاست، بعداً برمی‌گردیم ادامه می‌دیم».
+
+ */
+
+/*
+ 
+Iterator = الگویی برای حرکت مرحله‌به‌مرحله روی یک مجموعه.
+yield return = ساده‌ترین راه برای ساخت Iterator در C#.
+
+ */
+
 Garage garage = new Garage();
-Console.WriteLine(garage.GetEnumerator());
+IEnumerator carEnumerator = garage.GetEnumerator();
+
 Console.ReadLine();
 
 public class Car
