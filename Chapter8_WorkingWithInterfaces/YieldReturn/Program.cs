@@ -1,5 +1,19 @@
 ﻿using System.Collections;
 
+/*
+
+نقش yield return :
+
+yield return به برنامه میگه:
+«فعلاً این مقدار رو بده به foreach، ولی جای فعلیم رو یادت نگه دار، تا دفعه بعد که صدا زده شدم، از همین‌جا ادامه بدم.»
+در واقع state machine (ماشین حالت) پشت صحنه تولید میشه که آخرین نقطه اجرای حلقه رو حفظ می‌کنه.
+
+ */
+
+Garage garage = new Garage();
+Console.WriteLine(garage.GetEnumerator());
+Console.ReadLine();
+
 public class Car
 {
     public string PetName { get; set; }
