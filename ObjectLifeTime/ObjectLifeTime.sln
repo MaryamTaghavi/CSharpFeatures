@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewKeyword", "NewKeyword\Ne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectGenerations", "ObjectGenerations\ObjectGenerations.csproj", "{231958D5-14D5-43ED-87B9-4422E6F6EF8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarbageCollectionTypes", "GarbageCollectionTypes\GarbageCollectionTypes.csproj", "{805CB929-3CAD-4200-B047-DFA866736D25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{231958D5-14D5-43ED-87B9-4422E6F6EF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{231958D5-14D5-43ED-87B9-4422E6F6EF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{231958D5-14D5-43ED-87B9-4422E6F6EF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{805CB929-3CAD-4200-B047-DFA866736D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805CB929-3CAD-4200-B047-DFA866736D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805CB929-3CAD-4200-B047-DFA866736D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805CB929-3CAD-4200-B047-DFA866736D25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
