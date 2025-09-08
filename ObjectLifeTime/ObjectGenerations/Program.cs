@@ -37,3 +37,12 @@ Console.WriteLine(refToMyCar.ToString());
 Console.WriteLine("Generation of refToMyCar is: {0}",
 GC.GetGeneration(refToMyCar));
 Console.ReadLine();
+
+/*
+ دو روش پاک سازی داریم : 
+ 1) Finalize() => ابتدا اشیا به finalization queue  منتقل میشوند و بعد از آن GC وارد عمل میشود و بعد از اجرای
+    queue  دیتا را از حافظه پاک میکند یعنی
+    درگیری GC دو بار است.
+
+ 2) Dispose() => IDisposable()
+ */
