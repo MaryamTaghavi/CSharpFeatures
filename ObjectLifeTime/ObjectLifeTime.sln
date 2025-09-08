@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDisposable", "IDisposable\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyObjectInstantiation", "LazyObjectInstantiation\LazyObjectInstantiation.csproj", "{36182058-379D-473A-97C7-9E5687BF14F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanUp", "CleanUp\CleanUp.csproj", "{4ED0F49F-FDB3-45EE-8000-AC267AAA9804}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{36182058-379D-473A-97C7-9E5687BF14F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36182058-379D-473A-97C7-9E5687BF14F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36182058-379D-473A-97C7-9E5687BF14F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED0F49F-FDB3-45EE-8000-AC267AAA9804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED0F49F-FDB3-45EE-8000-AC267AAA9804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED0F49F-FDB3-45EE-8000-AC267AAA9804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED0F49F-FDB3-45EE-8000-AC267AAA9804}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
