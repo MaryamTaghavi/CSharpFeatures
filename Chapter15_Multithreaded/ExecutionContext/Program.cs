@@ -16,6 +16,11 @@ Call context (اطلاعاتی که بین متدها منتقل می‌شود)
 
 */
 
+static void ExtractCurrentThreadExecutionContext()
+{
+    ExecutionContext ctx = Thread.CurrentThread.ExecutionContext;
+}
+
 /*
  
 Execution Context محیطی است که اطلاعات مرتبط با اجرای یک Thread را نگه می‌دارد.
