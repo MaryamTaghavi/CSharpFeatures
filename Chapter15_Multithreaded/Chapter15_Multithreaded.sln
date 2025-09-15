@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForegroundThreads", "Foregr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IHostedService", "IHostedService\IHostedService.csproj", "{0FF7C45C-E27B-478D-A898-A88A5ED0FE7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lock", "Lock\Lock.csproj", "{514AED2B-7FD0-4E72-9D63-74D21EAB6C7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0FF7C45C-E27B-478D-A898-A88A5ED0FE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FF7C45C-E27B-478D-A898-A88A5ED0FE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FF7C45C-E27B-478D-A898-A88A5ED0FE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514AED2B-7FD0-4E72-9D63-74D21EAB6C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514AED2B-7FD0-4E72-9D63-74D21EAB6C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514AED2B-7FD0-4E72-9D63-74D21EAB6C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514AED2B-7FD0-4E72-9D63-74D21EAB6C7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
