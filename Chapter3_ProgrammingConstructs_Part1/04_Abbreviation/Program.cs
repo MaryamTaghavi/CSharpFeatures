@@ -36,3 +36,5 @@
 // IoC => Inversion of Control
 
 // ADTs => Abstract Data Types
+
+// TPL => Task Parallel Library
