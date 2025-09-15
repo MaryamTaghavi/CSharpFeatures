@@ -21,6 +21,11 @@ static void ExtractCurrentThreadExecutionContext()
     ExecutionContext ctx = Thread.CurrentThread.ExecutionContext;
 }
 
+static void ExtractCurrentThread()
+{
+    Thread ctx = Thread.CurrentThread;
+}
+
 /*
  
 Execution Context محیطی است که اطلاعات مرتبط با اجرای یک Thread را نگه می‌دارد.
