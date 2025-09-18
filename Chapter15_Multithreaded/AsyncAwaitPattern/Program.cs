@@ -5,13 +5,37 @@
 
 using AsyncAwaitPattern;
 
-static async Task Main()
+SynchronizationContext.SetSynchronizationContext(new LoggingSynchronizationContext());
+
+Console.WriteLine("قبل از await");
+
+await Task.Delay(1000);
+
+Console.WriteLine("بعد از await");
+
+
+#region ConfigureAwait
+
+// ConfigureAwait = false است یعنی به
+// SynchronizationContext میفهمانیم که نیازی نیست پس از اتمام کارت 
+// به همان ترد برگردی این سبب سبک شدن context میشود.
+
+Console.WriteLine("Fun With Async ===>");
+
+string message = await DoWorkAsync();
+
+Console.WriteLine($"0 - {message}");
+string message1 = await DoWorkAsync().ConfigureAwait(false);
+Console.WriteLine($"1 - {message1}");
+
+
+static async Task<string> DoWorkAsync()
 {
-    SynchronizationContext.SetSynchronizationContext(new LoggingSynchronizationContext());
-
-    Console.WriteLine("قبل از await");
-
-    await Task.Delay(1000);
-
-    Console.WriteLine("بعد از await");
+    return await Task.Run(() =>
+    {
+        Thread.Sleep(5_000);
+        return "Done with work!";
+    });
 }
+
+#endregion
