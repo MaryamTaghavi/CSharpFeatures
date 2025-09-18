@@ -39,3 +39,9 @@ static async Task<string> DoWorkAsync()
 }
 
 #endregion
+
+#region
+
+// Task.WhenAll() => یعنی اجرای چند تسک همزمان به صورت موازی
+
+#endregion
