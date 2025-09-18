@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lock", "Lock\Lock.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitor", "Monitor\Monitor.csproj", "{05C1C820-CC8C-489A-AADD-51F1C6D2C741}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitPattern", "AsyncAwaitPattern\AsyncAwaitPattern.csproj", "{2DE27840-3544-45B4-916F-3BB43A508A60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{05C1C820-CC8C-489A-AADD-51F1C6D2C741}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05C1C820-CC8C-489A-AADD-51F1C6D2C741}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05C1C820-CC8C-489A-AADD-51F1C6D2C741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE27840-3544-45B4-916F-3BB43A508A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE27840-3544-45B4-916F-3BB43A508A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE27840-3544-45B4-916F-3BB43A508A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE27840-3544-45B4-916F-3BB43A508A60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
