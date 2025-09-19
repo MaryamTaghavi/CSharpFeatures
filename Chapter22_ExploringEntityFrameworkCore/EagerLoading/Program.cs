@@ -18,10 +18,18 @@ var makesWithYellowCars = context.Makes
 .Include(x => x.Cars.Where(x => x.Color == "Yellow"))
 .ToList();
 
-// Eageloading with AsSplitQuery
+// Eagerloading with AsSplitQuery
 // وقتی تعداد join ها , include و thenInclude زیاد باشد از این دستور استفاده میکنیم تا فشار و بار روی دیتابیس را کاهش دهد.
 
 var splitMakes = context.Makes
     .AsSplitQuery() // فعال کردن Split Query
     .Include(x => x.Cars.Where(x => x.Color == "Yellow"))
+    .ToList();
+
+// Pivot Table => همان جدول واسط در ارتباطات Many-Many
+// از EFCore 5 بدون جدول واسط میتوان کوئری را اعمال کرد. 
+
+var carsAndDrivers = context.Cars
+    .Include(c => c.Drivers)
+    .Where(c => c.Drivers.Any())
     .ToList();
