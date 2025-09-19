@@ -17,3 +17,11 @@ var context = new Object() ;
 var makesWithYellowCars = context.Makes
 .Include(x => x.Cars.Where(x => x.Color == "Yellow"))
 .ToList();
+
+// Eageloading with AsSplitQuery
+// وقتی تعداد join ها , include و thenInclude زیاد باشد از این دستور استفاده میکنیم تا فشار و بار روی دیتابیس را کاهش دهد.
+
+var splitMakes = context.Makes
+    .AsSplitQuery() // فعال کردن Split Query
+    .Include(x => x.Cars.Where(x => x.Color == "Yellow"))
+    .ToList();
