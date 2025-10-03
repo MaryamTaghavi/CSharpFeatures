@@ -4,4 +4,6 @@
 string a = "hello";
 string b = "hello";
 
+به صورت داخلی خود .Net انجام میدهد.
+
 Console.WriteLine(Object.ReferenceEquals(a, b)); // true → هر دو interned
